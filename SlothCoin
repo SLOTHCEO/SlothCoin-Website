@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlothCoin - The Chillest Coin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#community">Community</a>
+      <a href="#how-to-buy">How to Buy</a>
+    </nav>
+    <div class="hero-content">
+      <h1>Welcome to SlothCoin 🦥</h1>
+      <p>The slowest coin to the moon, but with the *chillest* gains. 🌴💰</p>
+      <a href="#how-to-buy" class="cta-button">Buy Now</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About SlothCoin</h2>
+    <p>SlothCoin is a meme-based cryptocurrency designed for those who love to relax and enjoy life, one slow step at a time. Our mission? To create a fun and vibrant community that believes in steady, long-term gains.</p>
+  </section>
+
+  <section id="tokenomics" class="section">
+    <h2>Tokenomics</h2>
+    <ul>
+      <li><strong>Total Supply:</strong> 1 Billion SLOTH</li>
+      <li><strong>Community Airdrop:</strong> 50%</li>
+      <li><strong>Liquidity Pool:</strong> 20%</li>
+      <li><strong>Marketing:</strong> 20%</li>
+      <li><strong>Team:</strong> 10%</li>
+    </ul>
+  </section>
+
+  <section id="community" class="section">
+    <h2>Join the Community</h2>
+    <p>Be part of the chillest community in crypto. Follow us on:</p>
+    <ul>
+      <li><a href="https://twitter.com">Twitter</a></li>
+      <li><a href="https://discord.com">Discord</a></li>
+      <li><a href="https://t.me">Telegram</a></li>
+    </ul>
+  </section>
+
+  <section id="how-to-buy" class="section">
+    <h2>How to Buy SlothCoin</h2>
+    <ol>
+      <li>Download a crypto wallet like MetaMask or TrustWallet.</li>
+      <li>Fund it with ETH or BNB (depending on the blockchain).</li>
+      <li>Connect your wallet to Uniswap or PancakeSwap.</li>
+      <li>Search for SlothCoin (contract address: 0x123...456).</li>
+      <li>Swap your tokens and start hodling!</li>
+    </ol>
+    <a href="#" class="cta-button">Buy Now</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 SlothCoin. All Rights Reserved. | Made with 🦥 and 💰</p>
+  </footer>
+</body>
+</html>
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header.hero {
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-content {
+  margin-top: 50px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #f7c12d;
+  color: #1e3c72;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #e1aa1d;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #1e3c72;
+}
+
+.footer {
+  background-color: #1e3c72;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+<img src="slothcoin-logo.png" alt="SlothCoin Logo" />
